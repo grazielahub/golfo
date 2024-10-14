@@ -19,6 +19,19 @@
 
 }
 
+.scroll-container {
+    background-color: rgba(98, 7, 112, 0.22);
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    max-width: 1200px;
+    height: 400px;
+    margin: 20px auto;
+}
+
 .kinesu{  
     display: inline-block;
     font-size: 19px;
@@ -142,45 +155,94 @@ header{
     margin-left: 300px;
     margin-top: 0px;
  }
- .button {
-    align-items: center;
-    background-color:  rgb(75, 44, 97);
-    backdrop-filter: blur(100%);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    backdrop-filter: blur(100%);
-    margin-left: 700px;
-    width: 30%;
-    color: white;
-    padding: 20px;
-    padding-right: 3%;
-    font-size: 20px;
-    cursor: pointer;
-    margin-top: -50;
-  }
-  
-  .button:hover {background-color:#9a7cac;}
-  
-  .button:active {
-    background-color: #9a7cac;
-    transform: translateY(4px);
-    box-shadow: 0 5px #666;
-  }
 
- 
-  footer {
+
+.container {
+    height: 500px; 
+    align-items: center;
+}
+
+
+.about-me {
+    display: flex;
+    align-items: flex-start; 
+}
+
+
+.about-me img {
+    width: 25%; 
+    border-radius: 80%; 
+    margin-right: 30px; 
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+
+.about-me-text {
+    width: 70%; 
+    text-align: center; 
+   
+}
+
+
+.about-me h1 {
+    text-align: center; 
+    margin-top: -2rem;
+}
+
+
+.about-me p {
+    text-align: center; 
+    padding-right: 50px;
+}
+     
+.contact-section {
+    padding: 32px; 
+    margin-top: 20px; 
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+.contact-section h2 {
+    font-size: 50px; 
+    margin-top: -9rem; 
+   text-align: center;
+}
+
+.contact-section p {
+    font-size: 15px; 
+    margin: 8px 0; 
+}
+
+.contact-section .fa {
+    color: rgb(147, 38, 197); 
+}
+
+.footer {
     font-size: 80%;
     position: fixed;
-    width: 100%;
-    bottom: 0px;
-    padding: 0px 0;
-    padding-bottom: 0px;
     left: 0;
-    background-color: #f7c4c4;
+    right: 0;
+    bottom: 0;
+    background-color: #f7c4c4; 
     text-align: center;
-    height: 7%;
-    border-radius: 0%;
-    color: #eb5c52;
-    padding-top: 5px;
-    
+    height: 30px; 
+    color: #eb5c52; 
+    line-height: 20px; 
+    padding: 5px; 
+    z-index: 1000; 
+}
+footer {
+    font-size: 80%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f7c4c4; 
+    text-align: center;
+    height: 20px; 
+    color: #eb5c52; 
+    line-height: 20px; 
+    padding: 5px; 
+    z-index: 1000; 
 }

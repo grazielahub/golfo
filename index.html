@@ -10,13 +10,14 @@
 <body>
 
 <header>
-<div id="what" class="kinesu">
+  <div id="what" class="kinesu">
     <ul>
-        <li><a href="index.html" class = "kinesu"><i class="fa-solid fa-house"></i> Home</a></li>
-        <li><a href="about.html" class = "kinesu"><i class="fa-solid fa-user"></i> About me</a></li>
-        <li><a href="form.html" class = "kinesu"><i class="fa-solid fa-folder"></i> Form</a></li>
+        <li><a href="index.html" class="kinesu"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="about.html" class="kinesu"><i class="fa-solid fa-user"></i> About Me</a></li>
+        <li><a href="form.html" class="kinesu"><i class="fa-solid fa-folder"></i> Form</a></li>
     </ul>
 </div>
+
 </header>
 <div class="bar">
     <div id="menu">
@@ -26,91 +27,91 @@
     </div>
 </header>
 
-<style>
-  * {
-    box-sizing: border-box;
-  }
-  
-  .row {
-    display: -ms-flexbox; 
-    display: flex;
-    -ms-flex-wrap: wrap; 
-    flex-wrap: wrap;
-    padding: 0 4px;
-    padding-top: 0;
-  }
-  
-  /*apat na column mi */
-  .column {
-    -ms-flex: 25%; 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        .column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-  }
-  
-  .column img {
+}
+
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
-  
-  @media screen and (max-width: 800px) {
+}
+
+.column video {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 800px) {
     .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
-  }
-  
-  /*top kinesu*/
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
-  }
-  </style>
+}
+
+    </style>
+</head>
+<body>
 
 <div class="row"> 
-  <div class="column">
-    <img src="em/em4.jpg" style="width:100%">
-    <img src="fam/grad.jpg" style="width:100%">
-    <img src="fam/kain.jpg" style="width:100%"> 
-  </div>
+    <div class="column">
+        <img src="em/em4.jpg" alt="Image 1" style="width:100%">
+        <img src="fam/grad.jpg" alt="Image 2" style="width:100%">
+        <img src="fam/kain.jpg" alt="Image 3" style="width:100%"> 
+    </div>
 
-  <div class="column">
-    <img src="em/em.1.jpg" style="width:100%">
-    <img src="em/shs.jpg" style="width:100%">
-    <video width="100%" height="500" muted loop preload="auto" id="portfolio-vid" onmouseover="this.play()" onmouseout="this.pause()" onmouseout="this.pause();this.currentTime=0;">
-      <source src="em/shs7.mp4" type="video/mp4">
-  </div>  
+    <div class="column">
+        <img src="em/em.1.jpg" alt="Image 4" style="width:100%">
+        <img src="em/shs.jpg" alt="Image 5" style="width:100%">
+        <video width="100%" height="500" muted loop preload="auto" onmouseover="this.play()" onmouseout="this.pause(); this.currentTime=0;">
+            <source src="em/shs7.mp4" type="video/mp4">
+        </video>
+    </div>  
 
-  <div class="column">
-    <img src="em/em7.jpg" style="width:100%">
-    <img src="em/shs1.jpg" style="width:100%">
-    <img src="friends/1.jpg" style="width:100%">
-  </div>
+    <div class="column">
+        <img src="em/em7.jpg" alt="Image 6" style="width:100%">
+        <img src="em/shs1.jpg" alt="Image 7" style="width:100%">
+        <img src="friends/1.jpg" alt="Image 8" style="width:100%">
+    </div>
 
-  <div class="column">
-    <img src="em/em1.jpg" style="width:100%">
-      <img src="em/shs2.jpg" style="width:100%">
-      <video width="100%" height="478" muted loop preload="auto" id="portfolio-vid" onmouseover="this.play()" onmouseout="this.pause()" onmouseout="this.pause();this.currentTime=0;">
-        <source src="em/shs6.mp4" type="video/mp4">
-  </div>
+    <div class="column">
+        <img src="em/em1.jpg" alt="Image 9" style="width:100%">
+        <img src="em/shs2.jpg" alt="Image 10" style="width:100%">
+        <video width="100%" height="478" muted loop preload="auto" onmouseover="this.play()" onmouseout="this.pause(); this.currentTime=0;">
+            <source src="em/shs6.mp4" type="video/mp4">
+        </video>
+    </div>
 </div>
 
-
 <footer>
-    <div class="Socials">
-        Socials
-        <br>
-        <a href="https://www.instagram.com/" target="_blank" class = "link1"><i class="fa-brands fa-instagram"></i> Instagram</a>
-        |
-        <a href="https://www.facebook.com/" target="_blank" class = "link1"><i class="fa-brands fa-facebook"></i> Facebook</a>
-    </div>
-</footer>
-
+  <div class="footer">
+  <a href="https://www.instagram.com/_gumamellaa/" target="_blank" class="link1"><i class="fa-brands fa-instagram"></i> Instagram</a>
+  |
+  <a href="https://www.facebook.com/profile.php?id=100007906429452" target="_blank" class="link1"><i class="fa-brands fa-facebook"></i> Facebook</a>
+</div>
+  </footer>
 
 </body>
 </html>

@@ -3,146 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>About me</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel='stylesheet' href='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous' />
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
 
-    <div id="what" class="pic">
+    <div id="what" class="kinesu">
         <ul>
             <li><a href="index.html" class="kinesu"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="about.html" class="kinesu"><i class="fa-solid fa-user"></i> About me</a></li>
+            <li><a href="about.html" class="kinesu"><i class="fa-solid fa-user"></i> About Me</a></li>
             <li><a href="form.html" class="kinesu"><i class="fa-solid fa-folder"></i> Form</a></li>
         </ul>
     </div>
 
-    
-    <style>
-        img {
-            border-radius: 70%;
-            width: 20%;
-            margin-left: 10%;
-        }
+    </head>
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: rgb(219, 187, 236);
-            overflow: auto;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            align-items: center;
-            border-radius: 20px;
-            margin-left: 699px;
-            width: 30%;
-            padding-bottom: -5px;
-            margin-top: 2px;
-        }
-
-        .dropdown-content a {
-            color: rgb(0, 0, 0);
-            padding: 12px 18px;
-            text-decoration: none;
-            display: block;
-            align-items: center;
-        }
-
-        .dropdown-content a:hover {
-            background-color: rgb(219, 187, 236);
-            transform: translateY(4px);
-            box-shadow: 0 5px rgb(75, 44, 97);
-            border-radius: 30px;
-        
-        }
-
-        .show {
-            display: block;
-        }
-    </style>
-
-    <div class="dropdown">
-        <button id="myBtn" class="button">Contact Me</button>
-        <div id="myDropdown" class="dropdown-content">
-            <a><i class='fas fa-house-user' style='font-size:14px'></i> Home: Batasan Hills, Quezon City</a>
-            <a><i class='fas fa-phone' style='font-size:14px'></i> Phone: 09509816998</a>
-            <a><i class='fas fa-envelope-open' style='font-size:14px'></i> Email: grazielagolfo1212@gmail.com</a>
-        </div>
-    
-        <style>
-            .pic{
-              float: left; 
-              position: sticky;
-              width: 33%;
-            }
-            .about{
-                position: absolute;
-                width: 70%;
-                margin-top: -5%;
-                padding-bottom: 5%;
-                right: 31%;
-            }
-            .h1{
-                color :white;
-                font-style: oblique;
-                font-size: 5rem;
-                padding: -10px;
-                margin: -5px;
-                margin-right: 105px;
-                margin-top: -20;
-                text-align: center;
-            }
-            .text{
-                margin-top: 1rem;
-                color: ad00fa;
-                padding: -5px;
-                margin-right: 70px;
-            }
-            .text1{
-                margin-top: 35px; 
-                color: ad00fa;
-                margin-right: -20rem;
-                text-align: center;
-            }    
-        </style>
+<body>
 
 
-        <div class="about">
-             <img class="pic" src="em/em.jpeg">
-        <div class="h1">About Me</div>
-        <div class="text">
-            <p>Hi! I'm Graziela S. Golfo, 18 years old, residing in Batasan Hills, Quezon City. I'm currently pursuing a Bachelor of Information Technology at Quezon City University.</p>
-        </div>
-        <div class="text1">
-            <p>I love indulging in my hobbies, which include watching rom-com movies/series, cooking, singing karaoke, playing online games, listening to music, and spending quality time with my friends and love of my life when I'm not busy with my studies and responsibilities. Even though I was not able to take my dream course, I'm still deeply passionate and want to explore about my field of study and currently exploring being Vice President of External Affairs at Peer Counselor Organization, where it matches my interest and my dream course Psychology.</p>
-            <p>As the older sister to my two beloved siblings, Sasha and Gracie, I take my role as a sister seriously and ensure that I'm always there for them. My adorable pet(Child) cat, Haru, holds a special place in my heart, and I miss him so much. I have a keen interest in fashion and enjoy creating aesthetic and stylish looks.</p> Adobo and Shrimp is my ultimate favorite dish, and I have a craving for a bitter cup of matcha. I love exploring new places/cafés and healing my inner child with my boyfriend and friends because making lasting memories brings me immense joy. I'm incredibly grateful for my loving family, especially my Tatay, Nanay, and Eomma, who have been there since my earliest days. I'm eager to delve deeper into my field of study, as I want to broaden my knowledge and embrace new challenges as a dedicated student.</p>
-        </div>
-        </div>
-
-
-        <script>
-            document.getElementById("myBtn").onclick = function () { myFunction() };
-
-            /*hide mo mamsh*/
-            function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }
-        </script>
-   
-
-        <footer>
-            <div class="Socials">
-                Socials
-                <br>
-                <a href="https://www.instagram.com/" target="_blank" class="link1"><i
-                        class="fa-brands fa-instagram"></i> Instagram</a>
-                |
-                <a href="https://www.facebook.com/" target="_blank" class="link1"><i class="fa-brands fa-facebook"></i>
-                    Facebook</a>
+    <div class="about-me">
+        <div class="container">
+            <div style="display: flex; align-items: flex-start;">
+                <img src="em/em.jpeg" class="about-me" alt="Person">
+                <div>
+                    <h1>About Me</h1> 
+            <p>Hi! I'm Graziela S. Golfo, 18 years old, residing in Batasan Hills, Quezon City. I'm currently pursuing a Bachelor of Information Technology at Quezon City University. I love indulging in my hobbies, which include watching rom-com movies/series, cooking, singing karaoke, playing online games, listening to music, and spending quality time with my friends and love of my life when I'm not busy with my studies and responsibilities. Even though I was not able to take my dream course, I'm still deeply passionate and want to explore about my field of study and currently exploring being Vice President of External Affairs at Peer Counselor Organization, where it matches my interest and my dream course Psychology.</p>
+            <p>As the older sister to my two beloved siblings, Sasha and Gracie, I take my role as a sister seriously and ensure that I'm always there for them. My adorable pet(Child) cat, Haru, holds a special place in my heart, and I miss him so much. I have a keen interest in fashion and enjoy creating aesthetic and stylish looks. Adobo and Shrimp is my ultimate favorite dish, and I have a craving for a bitter cup of matcha. I love exploring new places/cafés and healing my inner child with my boyfriend and friends because making lasting memories brings me immense joy. I'm incredibly grateful for my loving family, especially my Tatay, Nanay, and Eomma, who have been there since my earliest days. I'm eager to delve deeper into my field of study, as I want to broaden my knowledge and embrace new challenges as a dedicated student.</p>
+             
             </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="contact-section">
+            <h2>Contact Me</h2>
+          <hr>
+                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Home: Batasan Hills, Quezon City</p>
+                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 09509816998</p>
+                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email: grazielagolfo1212@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <a href="https://www.instagram.com/_gumamellaa/" target="_blank" class="link1"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        |
+        <a href="https://www.facebook.com/profile.php?id=100007906429452" target="_blank" class="link1"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          
         </footer>
 </body>
 </html>
